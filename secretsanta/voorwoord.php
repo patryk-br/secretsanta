@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voorwoord</title>
+</head>
+<body>
+  <h1>BELANGERIJK!</h1>
+  <p>Dit project bevat PHP code, wat alleen bereikt kan worden door een database, wat Github niet aanbiedt voor repositories.</p>
+  <p>Zodra je op verder klikt, kan het zijn dat je PHP errors tevoorschijn krijgt. Sommige functionaliteiten werken niet.</p>
+  <p>Dit project is gemaakt om vaardigheiden met PHP en databases te laten zien.</p>
+  <button onclick="window.location.href='index.php'">Verder</button>
+</body>
+</html>

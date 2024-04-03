@@ -1,0 +1,116 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font and color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Set default link styles */
+/* Set default link styles */
+a{
+  text-decoration: none;
+  color: rgb(102, 192, 223);
+}
+
+a:hover {
+  color: rgb(176, 226, 243);
+}
+
+a:active{
+  color: rgb(54, 110, 129);
+}
+
+/* Set default heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Set default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Set default box model */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add more default styles as needed */
+
+/* Center container */
+#container {
+  display: flex;
+  flex-direction: column; /* Add this line */
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+/* Add line break after each element */
+/* Style for form */
+form {
+  margin-top: 20px;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for form submit button */
+input[type="submit"] {
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(102, 192, 223);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(121, 197, 223);
+}
+input[type="submit"]:active {
+  background-color: rgb(54, 110, 129);
+}
+
+/* Navbar styles */
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #ccc;
+}
+
